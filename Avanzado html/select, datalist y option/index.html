@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label>Nombre completo
+            <input type="text" placeholder="John Doe">
+        </label>
+        </div>
+        <div class="form_input">
+            <label>Email
+            <input type="email" placeholder="ejemplo@gmail.com">
+            </label>
+        </div>
+
+        
+                    <!-- Select -->
+        <div class="form_input">
+            <label>Tipo de usuario
+            <select name="type-of-user">
+                <option value="user1">Seguidor/a</option>
+                <option value="user2">Empresa</option>
+                <option value="user3">Otros</option>
+            </select>
+        </label>
+        </div>
+
+
+                    <!-- Datalist -->
+        <div class="form_input">
+            <label>Referente
+                <input list="referente" name="referente">
+            <datalist id="referente" name="type-of-user">
+                <option value="user1">Soy Dalto</option>
+                <option value="user2">Una empresa</option>
+                <option value="user3">Un amigo</option>
+            </select>
+        </label>
+        </div>
+        <div class="form_input">
+            <label>Mensaje
+            <textarea rows="6" maxlength="140" placeholder="Deja tu mensaje..."></textarea>
+        </label>
+            <!-- Atributo readonly para no poder modificar o disabled para no poder interactuar-->
+            <div class="form_input">
+                <label>
+                    <input type="checkbox" class="checkbox">
+                    Acepto los términos y condiciones
+                </label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

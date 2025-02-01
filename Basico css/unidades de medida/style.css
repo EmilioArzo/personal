@@ -1,0 +1,46 @@
+div{
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 20px;
+    height: 80vh;
+    width: 80vw;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 10vh;
+}
+h1{
+    margin: 0;
+    font-size: 23px;
+
+    
+}
+
+body{
+    margin: 0;
+}
+
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p{
+    color: #555;
+    font-size: 1em;
+    /* line-height: 1ex; */
+}
+
+html{
+    font-size: 30px;
+}
+
+/* em busca el tamaño del elemento padre si no tiene busca mas arriba hasta encontrar una etiqueta con font-size definido, si no, por defecto es 16px*/
+/* rem busca el tamaño del elemento raiz (html) */
+
+/* 
+1vmin = 1vw cuando el vw es menor que el vh
+1vmax = 1vh ... mayor ...
+*/

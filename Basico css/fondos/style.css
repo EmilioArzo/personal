@@ -1,0 +1,35 @@
+body{
+    background-color: #48e;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.box{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: #8486;
+    position: absolute;
+    top: 0;
+    background-image: url("https://th.bing.com/th/id/OIP.HlH0gWicQh-9JPAHIwjMcgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
+    background-size: cover;
+    background-position: top;
+    /* background-repeat: no-repeat; */
+    /*  */
+    background-attachment: fixed;
+
+    /* forma abreviada */
+    background: url("https://th.bing.com/th/id/OIP.HlH0gWicQh-9JPAHIwjMcgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7") top / cover no-repeat fixed #6fa;
+}
+
+.opaco{
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}

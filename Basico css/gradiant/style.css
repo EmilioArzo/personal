@@ -1,0 +1,24 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    /*linear to top - to right...*/
+    background: conic-gradient(transparent,#000a 80%, transparent);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 3px solid #900;
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}

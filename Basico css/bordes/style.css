@@ -1,0 +1,37 @@
+div{
+    background: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+div{
+    /* border-width: 3px;
+    border-color: black;
+    border-style: solid; */
+    /* border lo mismo que las tres propiedades de arriba */
+    border-top: 3px solid black;
+    border-bottom: 2px dashed yellow;
+
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 10px;
+    /* lo de arriba es igual a lo de abajo con variantes */
+    border-radius: 10px 50px 0 2px;/* top-left top-right bottom right bottom left */
+    border-radius: 10px 50px;/* top-left bottom-right -- top-right bottom-left */
+
+}
+
+input{
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    background: transparent;
+    color: greenyellow;
+    border-radius: 5px;
+}
+body{
+    background: black;
+}

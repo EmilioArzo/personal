@@ -1,0 +1,17 @@
+p{
+    color: red;
+    font-family: sans-serif, tahoma;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-align: left;
+    text-decoration: line-through;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+}

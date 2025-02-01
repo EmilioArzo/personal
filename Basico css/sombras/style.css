@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.box{
+width: 280px;
+background: #e2e2e2;
+margin: auto;
+margin-top: 50px;
+/* sombra hacia la derecha - hacia abajo - desenfoque/difuminado - expancion - color */
+box-shadow: 0 0 40px 0 #0007;
+padding: 40px;
+box-sizing: border-box;
+font-family: sans-serif;
+color: #444;
+padding-top: 10px;
+text-align: center;
+} 
+
+h2{
+    text-shadow: 0 0 4px #f92;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 13px;
+    text-shadow: 0 0 4px #f93;
+}
+
+img{
+    width: 160px;
+    border-radius: 100%;
+    margin: auto;
+    /* box-shadow: 0 0 10px 1px #000; */
+    filter: drop-shadow(0 0 5px #f92);
+}
