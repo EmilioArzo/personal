@@ -1,0 +1,16 @@
+/* con $="" para buscar lo que termine con eso y con ^ para que inicie con eso con *= para buscar lo que contenga eso*/
+img[src^="../"]{
+    width: 100px;
+}
+
+
+/* con > para que se modifique un hijo directo */
+li > em{
+    color: red;
+}
+
+/* con + para que se modifique el siguiente hermano (modifica al ultimo de la cadena)*/
+/* con ~ para si viene despues de este si es hermano */
+h1 ~ p{
+    color: blue;
+}
