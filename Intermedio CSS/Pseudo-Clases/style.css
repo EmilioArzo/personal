@@ -1,0 +1,96 @@
+:root{
+    color: #999;
+}
+
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+
+/* cuando pasamos el cursos encima del elemento */
+h1:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+/* mientras se este clickeando */
+h1:active{
+    color: #999;
+    background-color: #fff;
+}
+
+/* seleccionar el primer li */
+li:first-child{
+    color: red;
+}
+
+/* seleccionar el ultimo li */
+li:last-child {
+    color: #00f;
+}
+
+/* seleccionar el segundo li */
+li:nth-child(2){
+    color: #0f0;
+}
+
+/* seleccionar cada cuanto se selecciona */
+li:nth-child(2n){
+    color: #80f;
+    background-color: #ddd;
+}
+
+ul{
+    background-color: #999;
+    padding: 0;
+}
+
+/* modifica del tipo que se quiere modificar del mismo tipo */
+li:nth-of-type(2){
+    color: #f00;
+}
+
+/* seleccionando los elementos menos algunos*/
+.lista li:not(.excluir){
+    color: #fff;
+}
+
+/* seleccionando un elemento vacio */
+
+div{
+    border: 2px solid #000;
+}
+div:empty{
+    border: none;
+}
+
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+input[type="checkbox"]:checked{
+    margin: 0;
+}
+
+/* seleccionando enlaces no visitados */
+a:link{
+    color: #f00;
+}
+
+/* seleccionando enlaces visitados */
+a:visited{
+    color: #0f0;
+}
+
+
+/* seleccionando input validos e invalidos */
+input:invalid{
+    color: #f00;
+}
+
+input:valid{
+    color: #0f0;
+}
+
