@@ -1,0 +1,14 @@
+body {
+    color:brown;
+    font-family: sans-serif;
+}
+
+h1 {
+    color:inherit;
+    font-family:initial;
+}
+
+div{
+     color: unset; /*al de la web */
+     font-family: revert;/*al que el programador definio */
+}
