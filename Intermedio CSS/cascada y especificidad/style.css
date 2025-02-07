@@ -1,0 +1,11 @@
+#titulo [class="titulo"] {
+    color: green;
+}
+
+body .titulo {
+    color: red;
+}
+
+h1 {
+    color:blue !important;
+}
