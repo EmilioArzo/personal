@@ -1,0 +1,37 @@
+section .elemento1,
+section .elemento2,
+section .elemento3{
+    color: #f00;
+}
+
+/* lo modifica aumentando la especificidad */
+section :is(.elemento1, .elemento2, .elemento3){
+    color: #0f0;
+}
+
+/* menor especificidad (no cambia la espicifidad) */
+section :where(.elemento1, .elemento2, .elemento3){
+    color: #00f;
+}
+
+/* que lo contiene */
+section:has(.elemento1){
+    background: #212;
+    color: #fff;
+}
+
+/* Modifica el ul cuando continua de div */
+ul:has(+div){
+    background-color: #000;
+}
+
+
+label:has(input:valid),
+input:valid{
+    color:#0f0
+}
+
+label:has(input:invalid),
+input:invalid{
+    color:#f00
+}
