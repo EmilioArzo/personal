@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: #ededed;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #fb2;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.box--blue{
+    background-color: #00f;
+    top: -10px;
+    left: 80px;
+    /* mayor prioridad a left y top por encima de bottom y right */
+    z-index: 30;
+}
+
+.box:first-child{
+    top:150px;
+    left: 40px;
+    background-color: #f00;
+    z-index: 20;
+}
+
