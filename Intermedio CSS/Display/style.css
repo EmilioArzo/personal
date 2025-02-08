@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div{
+    padding: 20px;
+    background-color: #999;
+}
+
+a{
+    background-color: #f00;
+    color: #fff;
+    display: block;
+    border: 1px solid #000;
+    margin: 0;
+    padding: 20px;
+}
+
+p{
+    background-color: #000;
+    color:#fff;
+    display: inline;
+    margin: 5px;
+    padding: 20px;
+}
+
+.nav {
+    background-color: #48e;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item{
+    display: inline-block;
+    padding: 0px;
+    background-color: #48e;
+}
+
+
+.nav__link:hover{
+    background-color: #59e;
+    color: #fff;
+}
+
+.nav__link{
+    color:#fff;
+    text-decoration: none;
+    background-color: #48e;
+    display: inline-block;
+    padding: 6px;
+    margin: 3px;
+    border: none;
+}
+
+.link--button{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #48e;
+    padding: 6px 18px;
+    border-radius: 3px;
+    margin-left: 60px;
+    /* display: none;   desaparece, no forma parte de nada para nada */
+}
+
+.link--button:hover{
+    background: transparent;
+    color: #fff;
+}
