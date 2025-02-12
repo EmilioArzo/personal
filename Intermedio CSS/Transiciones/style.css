@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: #f00;
+    /* margin: auto; */
+    margin-top: 50px;
+    font-size: 60px;
+    /* text-align: center; */
+    /* font-weight: bold; */
+    transition: left 1s cubic-bezier(0.17, 0.36, 0.9, 0.45) 2s; 
+    /* concatena todo para hacer transiciones */
+    /* transition-property: left;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    transition-delay: 0s; */
+    color: #f00;
+    position: relative;
+    left: 0;
+}
+
+/* .box:hover{
+    background-color: #00f;
+    font-size: 80px;
+    color: #fff;
+    margin: 20px;
+} */
+
+body:hover .box{
+    left: 400px;
+}
