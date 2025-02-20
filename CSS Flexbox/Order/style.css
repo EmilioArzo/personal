@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div , body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; 
+    forma para acortar estos dos atributos*/
+    flex-flow: row wrap;
+    border: 2px solid #000;
+    margin: 100px;
+    /* justify-content: space-evenly; */
+    /* baseline alinea el texto no el contenedor en si */
+    /* align-items: start;  para una sola linea*/
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    /* align-content: start; */
+}
+
+.flex-item{
+    background-color: #800;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    direction: rtl;
+    width: 100px;
+    order: 0;
+}
+
+/* para centrar elementos muy común es usar flexblox y margin: auto con el flex-flow:row wrap */
+
+.flex-item:first-child{
+    order: 0;
+    background-color: #f77;
+}
+
+.flex-item:last-child{
+    background-color: #000;
+    order: -1;
+}
