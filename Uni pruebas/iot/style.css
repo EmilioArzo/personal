@@ -1,0 +1,28 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #48e;
+        }
+
+        h1{
+            margin: auto;
+        }
+        .info-panel {
+            border: 1px solid #000;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: #34a;
+            box-shadow: 0 0 20px #0007;
+        }
+        .error {
+            color: red;
+            display: none;
+        }
+        .success {
+            color: green;
+            display: none;
+        }

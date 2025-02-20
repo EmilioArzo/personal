@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <title>Sistema de Acceso RFID</title>
+</head>
+<body>
+    <h1>Sistema de Acceso RFID</h1>
+    
+    <div class="info-panel">
+        <h2>Información del Usuario</h2>
+        <p><strong>Matrícula:</strong> <span id="matricula">-</span></p>
+        <p><strong>Nombre:</strong> <span id="nombre">-</span></p>
+    </div>
+    
+    <p id="error" class="error">Usuario no encontrado</p>
+    <p id="success" class="success">Acceso permitido</p>
+
+    <script>
+        function verificarAcceso() {
+            fetch('/api/verificar-acceso')
+                .then(response => response.json())
+                .then(data => {
+                    const errorElement = document.getElementById('error');
+                    const successElement = document.getElementById('success');
+                    
+                    if (data.error) {
+                        document.getElementById('matricula').textContent = '-';
+                        document.getElementById('nombre').textContent = '-';
+                        errorElement.style.display = 'block';
+                        successElement.style.display = 'none';
+                    } else {
+                        document.getElementById('matricula').textContent = data.matricula;
+                        document.getElementById('nombre').textContent = data.nombre;
+                        errorElement.style.display = 'none';
+                        successElement.style.display = 'block';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        // Verificar cada segundo
+        setInterval(verificarAcceso, 1000);
+    </script>
+</body>
+</html>
