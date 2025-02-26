@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* forma mas eficiente para hacer responsivo un video */
+.contenedor{
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+video{
+    max-width: 100%;
+
+}
+/* ------------------------------ */
