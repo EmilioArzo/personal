@@ -1,0 +1,150 @@
+
+        /* Estilos personalizados */
+        body{
+            background-image: url(img/img-fondo-pagina.png);
+        }
+
+        .header__principal{
+            display: flex;
+            position: sticky;
+            top: 0;
+            z-index: 1100;
+            background-color: #e73f0b;
+            max-height: 100px;
+        }
+
+        .header__logo{
+            box-sizing: border-box;
+        } 
+
+        .img--logo{
+            max-width: 30%;
+            height: auto;
+        }
+        
+        
+        .contenedor-principal {
+            padding: 20px;
+        }
+        
+        .logo-restaurante {
+            max-height: 80px;
+            padding: 10px;
+        }
+        
+        .barra-navegacion {
+            margin-bottom: 20px;
+        }
+
+        .card__fondo{
+            background-color: #D2F960;
+            border: 2px solid #28a745;
+            border-radius: 6px;
+        }
+        
+        .tarjeta-producto {
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin-bottom: 20px;
+            height: 100%;
+        }
+        
+        .tarjeta-producto:hover {
+            transform: scale(1.03);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .imagen-producto {
+            height: 120px;
+            object-fit: cover;
+        }
+        
+        .precio-producto {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #2b7a78;
+        }
+        
+        .tabla-comanda {
+            margin-top: 20px;
+        }
+        
+        .boton-eliminar {
+            cursor: pointer;
+            color: #e73f0b;
+        }
+        
+        .boton-aumentar, .boton-disminuir {
+            cursor: pointer;
+            margin: 0 5px;
+        }
+        
+        .resumen-comanda {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .botones-accion {
+            margin-top: 20px;
+        }
+        
+        .boton-pagar {
+            background-color: #28a745;
+            color: white;
+        }
+        
+        .boton-cancelar {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .boton__agregar{
+            background-color: #e73f0b;
+            border-color: #28a745;
+        }
+
+        .boton__agregar:hover{
+            background-color: #A2B340;
+            border-color: #28a745;
+        }
+        
+        /* Estilo para categorías */
+        .enlaces-categoria {
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .enlace-categoria {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .enlace-categoria:hover {
+            background-color: #f0f0f0;
+        }
+        
+        /* Modal de pago */
+        .formulario-pago {
+            padding: 15px;
+        }
+        
+        .titulo-seccion {
+            margin: 15px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            background-color: #A2B34099;
+            border-bottom: 4px solid #829320;
+            border-radius: 5px;
+        }
+
+        .contenedor__venta{
+            top: 100px;
+            background-color: #dbca48;
+            border: 4px solid #76641d;
+            box-shadow: 0 0 6px #0006;
+        }
